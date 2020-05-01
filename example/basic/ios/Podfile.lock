@@ -11,7 +11,7 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
-  - KlarnaCheckoutSDK (1.6.5)
+  - KlarnaCheckoutSDK (1.6.10)
   - React (0.60.0):
     - React-Core (= 0.60.0)
     - React-DevSupport (= 0.60.0)
@@ -82,8 +82,8 @@ PODS:
   - React-RCTWebSocket (0.60.0):
     - React-Core (= 0.60.0)
     - React-fishhook (= 0.60.0)
-  - RNKlarna (0.1.2):
-    - KlarnaCheckoutSDK
+  - RNKlarna (0.2.0):
+    - KlarnaCheckoutSDK (= 1.6.10)
     - React
   - yoga (0.60.0.React)
 
@@ -113,8 +113,9 @@ DEPENDENCIES:
   - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - boost-for-react-native
+  trunk:
     - KlarnaCheckoutSDK
 
 EXTERNAL SOURCES:
@@ -170,7 +171,7 @@ SPEC CHECKSUMS:
   DoubleConversion: 5805e889d232975c086db112ece9ed034df7a0b2
   Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
   glog: 1f3da668190260b06b429bb211bfbee5cd790c28
-  KlarnaCheckoutSDK: 502891457f8454896103ea361f00ef283df82d2f
+  KlarnaCheckoutSDK: d11af86e8e6e88a2a7e2b98a8c8e9789e4d80064
   React: 4b3c068e793e96672dcd186a2b572fac43e4b031
   React-Core: 3dc86b22920597f813c62a96db3165950b64826b
   React-cxxreact: 0dacb291e59b81e7c3f22a2118bee853ba8a60d2
@@ -189,9 +190,9 @@ SPEC CHECKSUMS:
   React-RCTText: 685fca2e13b024271048e7e247ef24476f28a41e
   React-RCTVibration: 4ee1cf208ab17a50fafb1c16ffe28fe594a64e4f
   React-RCTWebSocket: fca087d583724aa0e5fef7d911f0f2a28d0f2736
-  RNKlarna: 2036228a3021bbad03f8875ce798a8c9db3a6827
+  RNKlarna: b8974d4bf0289c5f00cffce2c886d6eee9d3891f
   yoga: 616fde658be980aa60a2158835170f3f9c2d04b4
 
 PODFILE CHECKSUM: 8ee0b4f1da57824cb1238425c2985ef3a4771670
 
-COCOAPODS: 1.7.3
+COCOAPODS: 1.9.1
