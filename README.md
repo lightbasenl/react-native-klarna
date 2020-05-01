@@ -10,7 +10,7 @@ or
 
 `$ react-native link react-native-klarna`
 
-For RN > 0.60 pleas follow `After either route` step for iOS and for Android within repositories block of the dependencies block add:
+For RN >= 0.60 please follow `After either route` step for iOS and for Android within repositories block of the dependencies block add:
     ```gradle
         maven { url 'https://x.klarnacdn.net/mobile-sdk/'}
     ```
@@ -24,7 +24,7 @@ For RN > 0.60 pleas follow `After either route` step for iOS and for Android wit
 1. In Podfile add `pod 'RNKlarna', :path => '../node_modules/react-native-klarna'`
 2. Run `pod install`.
 
-##### Manual route
+##### Manual route (only available for version < 0.2.1)
 
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
 2. Go to `node_modules` ➜ `react-native-klarna` and add `RNKlarna.xcodeproj`
@@ -109,7 +109,7 @@ Add the following key with your bundle name to your Info.plist:
     ```
 
 ## Usage Example
-Typical usage example is shown below, there is also an example app in example/basic
+Typical usage example is shown below, there is also an example app in `example/basic`
 
 ```javascript
 import RNKlarna, { NativeEvent } from 'react-native-klarna';
